@@ -19,6 +19,17 @@
   Built using **Streamlit** for easy use on web browsers.
 
 ---
+## ⚙️ Installation & Setup
+    - git clone https://github.com/AnaghaAni/LinguaKids.git
+      cd Linguakids/ai_lip_sync
+
+##  Create a Virtual Environment
+    - python -m venv venv
+##  Activate the virtual environment:
+      venv\Scripts\activate
+##   Run the Application
+      streamlit run app.py
+
 
 ## 🛠️ Tech Stack
 
