@@ -46,21 +46,14 @@ Linguakids/ai_lip_sync
 ├── requirements.txt
 └── README.md
 
+---
+⚙️ Installation & Setup
+📥 Clone the Repository
 
-
-## ⚙️ Installation & Setup
-
-### 📥 Clone the Repository
-```bash
 git clone https://github.com/AnaghaAni/LinguaKids.git
 cd Linguakids/ai_lip_sync
 
-### 🧪 Create a Virtual Environment
-```bash
-python -m venv venv
-venv\Scripts\activate
+🧪 Create a Virtual Environment
 
-### 📦 Install Dependencies
-```bash
-pip install -r requirements.txt
+python -m venv venv
 
