@@ -46,7 +46,7 @@ Linguakids/ai_lip_sync
 ├── requirements.txt
 └── README.md
 
----
+
 
 ## ⚙️ Installation & Setup
 
