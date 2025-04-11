@@ -47,13 +47,3 @@ Linguakids/ai_lip_sync
 └── README.md
 
 ---
-⚙️ Installation & Setup
-📥 Clone the Repository
-
-git clone https://github.com/AnaghaAni/LinguaKids.git
-cd Linguakids/ai_lip_sync
-
-🧪 Create a Virtual Environment
-
-python -m venv venv
-
