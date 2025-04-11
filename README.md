@@ -47,53 +47,20 @@ Linguakids/ai_lip_sync
 └── README.md
 
 ---
-🔧 Installation
 
-Clone the repository:
+## ⚙️ Installation & Setup
 
+### 📥 Clone the Repository
+```bash
 git clone https://github.com/AnaghaAni/LinguaKids.git
-cd LinguaKids/ai_lip_sync
+cd Linguakids/ai_lip_sync
 
-Create a virtual environment:
-
+### 🧪 Create a Virtual Environment
+```bash
 python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
+venv\Scripts\activate
 
-Install the dependencies:
-
+### 📦 Install Dependencies
+```bash
 pip install -r requirements.txt
 
-Set up the .env file:
-
-Create a .env file in the root with your keys:
-
-GOOGLE_API_KEY=your_google_api_key
-
-▶️ Run the App
-
-streamlit run app.py
-
-🚰 Technologies Used
-
-Python
-
-Streamlit
-
-gTTS
-
-Google Generative AI
-
-PyTorch & Transformers
-
-MySQL Connector
-
-NumPy
-
-pyaudio
-
-📸 Example Output
-
-Input: User-provided image and text/audio
-
-Output: AI-generated video with synced lip movements
