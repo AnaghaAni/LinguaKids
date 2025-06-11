@@ -1,16 +1,6 @@
 # LinguaKids 
 
 **An AI-powered English Learning Assistant for Kids** — combining voice recognition, grammar correction, text-to-speech, and lip-sync animation to make learning interactive and fun!
-
-ai_lip_sync/
-│
-├── app.py              # Main Streamlit app
-├── requirements.txt    # Python dependencies
-├── .env                # Environment variables (e.g., API keys)
-├── assets/             # Static assets like images or video templates
-├── modules/            # Modular code (Whisper, Gemini API, gTTS, etc.)
-├── output/             # Generated media/output files
-
   
 
  ## 🌟 Features
@@ -37,3 +27,40 @@ ai_lip_sync/
   ###  Kid-Friendly Interface
 - Built with **Streamlit** for a simple, interactive web UI.
 - Encourages self-learning through play.
+
+## Follow these steps to clone and run the project on a different machine:
+  ### 1. Clone the Repository
+      ```bash
+          git clone https://github.com/AnaghaAni/LinguaKids.git
+          cd LinguaKids/ai_lip_sync
+
+  ### 2. Create and Activate Virtual Environment
+         
+        python -m venv venv
+        For Windows
+        .\venv\Scripts\activate
+
+  ### 3. Install Dependencies
+          pip install -r requirements.txt
+
+  ### 4. Set Up Environment Variables
+
+        create .env file -to manage sensitive data like API keys
+   ### Install dotenv (if not already installed)
+
+       ```bash
+          pip install python-dotenv
+
+  ### 5. MySQL Connector (XAMPP Integration)
+
+      To connect Python with the MySQL server running in XAMPP, install the official MySQL connector:
+      
+          ```bash
+          pip install mysql-connector-python
+
+  ### 6.  6. Run the App
+            python -m streamlit run app.py
+
+
+
+          
