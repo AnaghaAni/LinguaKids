@@ -2,15 +2,16 @@
 
 **An AI-powered English Learning Assistant for Kids** — combining voice recognition, grammar correction, text-to-speech, and lip-sync animation to make learning interactive and fun!
 
-##  Project Structure
-  ai_lip_sync/
-      │
-      ├── app.py # Main Streamlit app
-      ├── requirements.txt # Python dependencies
-      ├── .env # Environment variables (e.g., API keys)
-      ├── assets/ # Static assets like images or video templates
-      ├── modules/ # Modular code (Whisper, Gemini API, gTTS, etc.)
-      ├── output/ # Generated media/output files
+ai_lip_sync/
+│
+├── app.py              # Main Streamlit app
+├── requirements.txt    # Python dependencies
+├── .env                # Environment variables (e.g., API keys)
+├── assets/             # Static assets like images or video templates
+├── modules/            # Modular code (Whisper, Gemini API, gTTS, etc.)
+├── output/             # Generated media/output files
+
+  
 
  ## 🌟 Features
 
