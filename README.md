@@ -30,7 +30,7 @@
 
 ## Follow these steps to clone and run the project on a different machine:
   ### 1. Clone the Repository
-      ```bash
+      
           git clone https://github.com/AnaghaAni/LinguaKids.git
           cd LinguaKids/ai_lip_sync
 
@@ -41,6 +41,7 @@
         .\venv\Scripts\activate
 
   ### 3. Install Dependencies
+  
           pip install -r requirements.txt
 
   ### 4. Set Up Environment Variables
@@ -48,17 +49,17 @@
         create .env file -to manage sensitive data like API keys
    ### Install dotenv (if not already installed)
 
-       ```bash
+      
           pip install python-dotenv
 
   ### 5. MySQL Connector (XAMPP Integration)
 
       To connect Python with the MySQL server running in XAMPP, install the official MySQL connector:
       
-          ```bash
+      
           pip install mysql-connector-python
 
-  ### 6.  6. Run the App
+  ### 6.   Run the App
             python -m streamlit run app.py
 
 
