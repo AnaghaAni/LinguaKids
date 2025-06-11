@@ -37,7 +37,9 @@
   ### 2. Create and Activate Virtual Environment
          
         python -m venv venv
+        
         For Windows
+        
         .\venv\Scripts\activate
 
   ### 3. Install Dependencies
